@@ -1,0 +1,12 @@
+flask==3.0.2
+flask-cors==4.0.0
+pymongo==4.6.2
+python-dotenv==1.0.1
+google-generativeai==0.3.2
+xgboost==3.0.0
+scikit-learn==1.6.1
+pandas==2.2.3
+numpy==2.2.4
+joblib==1.4.2
+imbalanced-learn==0.13.0
+Werkzeug==3.0.1

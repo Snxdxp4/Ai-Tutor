@@ -1,0 +1,100 @@
+AI Tutor Project Overview
+=======================
+
+Project Description:
+------------------
+This is an AI-powered tutoring web application that provides personalized learning assistance across multiple subjects. The system uses machine learning to predict student levels and offers interactive tutoring through a modern chat interface.
+
+Key Components:
+-------------
+1. Frontend:
+   - HTML5-based web interface
+   - Styled with Tailwind CSS
+   - Vanilla JavaScript for interactivity
+   - Responsive design for all devices
+
+2. Backend:
+   - Flask web server
+   - MongoDB database for data storage
+   - XGBoost and Scikit-learn for student level prediction
+   - Google Gemini AI for tutoring responses
+
+3. Machine Learning Components:
+   - Student level prediction model using XGBoost
+   - Feature engineering for knowledge level and learning speed
+   - Data preprocessing with label encoding and standard scaling
+
+Main Features:
+------------
+1. AI Tutoring:
+   - Subject-specific tutoring (Math, Physics, Chemistry, Biology)
+   - Real-time chat interface
+   - Personalized learning experience
+
+2. Student Assessment:
+   - Level prediction based on knowledge and learning speed
+   - Progress tracking
+   - Performance analytics
+
+3. User Management:
+   - Secure authentication system
+   - User profiles
+   - Session management
+
+Technical Implementation:
+-----------------------
+1. API Endpoints:
+   - Authentication: /register, /login, /logout
+   - AI Tutor: /api/generate, /api/predict-level
+
+2. Data Processing:
+   - CSV data handling (intel.csv)
+   - MongoDB integration for user data
+   - Real-time data processing
+
+3. Model Pipeline:
+   - Data preprocessing
+   - Feature engineering
+   - Model training and prediction
+   - Model persistence using joblib
+
+Development Environment:
+----------------------
+- Python virtual environment (.venv)
+- Required Python packages documented in requirements.txt
+- Environment variables for API keys and database configuration
+- Cross-platform compatibility (Windows, Mac, Linux)
+
+Project Structure:
+----------------
+- Backend/: Contains server code, models, and templates
+- Data/: Stores dataset files
+- model.ipynb: Jupyter notebook for model development
+- requirements.txt: Project dependencies
+- README.md: Project documentation
+
+Team Contributions:
+-----------------
+
+1. Navneet - Model Training and Data Analysis
+   - Developed and implemented machine learning models using scikit-learn and XGBoost
+   - Worked on student performance prediction
+   - Implemented data preprocessing and feature engineering
+   - Created visualization and analysis notebooks
+   - Technologies used: Python, scikit-learn, XGBoost, pandas, matplotlib
+
+2. Sandeep - Backend Development
+   - Developed Flask-based REST API
+   - Implemented database models and schemas
+   - Created API endpoints for data handling
+   - Set up environment configuration
+   - Technologies used: Python, Flask, SQLAlchemy, REST APIs
+
+3. Diya - Frontend Development
+   - Developed the user interface
+   - Implemented responsive design
+   - Created interactive components
+   - Integrated with backend APIs
+   - Technologies used: HTML, CSS, JavaScript
+
+This project combines modern web technologies with machine learning to create an intelligent tutoring system that adapts to individual student needs and provides personalized learning assistance. 
