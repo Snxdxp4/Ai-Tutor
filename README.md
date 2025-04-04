@@ -1,4 +1,4 @@
-v# AI Tutor Project
+AI Tutor Project
 
 A modern web application that provides AI-powered tutoring assistance across multiple subjects. The application features a personalized learning experience with level prediction and interactive chat interface.
 
